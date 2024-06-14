@@ -5,7 +5,7 @@ using namespace std;
  */
 class bitwise_operator {
 public:
-    // function for bitwise AND
+ 
     void bitwise_and(int a, int b)
     {
         cout << "a & b = " << (a & b) << "\n";
