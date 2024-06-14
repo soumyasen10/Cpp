@@ -9,6 +9,8 @@ int factorial(int n)
         fact *= n; 
         n--; 
     } 
+
+
   
     return fact; 
 } 
