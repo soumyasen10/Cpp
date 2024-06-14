@@ -14,7 +14,8 @@ long long lcm(int a, int b)
     return result; 
 } 
   
-int main() 
+int main()
+
 { 
     int a = 24, b = 13; 
     cout << "LCM : " << lcm(a, b); 
