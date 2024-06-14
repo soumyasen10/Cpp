@@ -5,6 +5,8 @@ using namespace std;
 int main() 
 { 
     fstream file; 
+
+
  
     ifstream ifile("file.txt", ios::in); 
 
