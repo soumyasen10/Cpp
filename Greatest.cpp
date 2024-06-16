@@ -10,6 +10,7 @@ int main()
     if (a >= b && a >= c) { 
         cout << a << endl; 
     } 
+      
     else if (b >= a && b >= c) { 
         cout << b << endl; 
     } 
