@@ -26,6 +26,8 @@ double det(int n, double mat[10][10])
         }
     }
     return d;
+
+	
 }
 int main(int argc, char **argv)
 {
