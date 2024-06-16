@@ -21,7 +21,7 @@ struct CompareNodes {
 };
 
 double heuristic(int x1, int y1, int x2, int y2) {
-    return std::abs(x1 - x2) + std::abs(y1 - y2);  // Manhattan distance
+    return std::abs(x1 - x2) + std::abs(y1 - y2); 
 }
 
 void a_star(const std::vector<std::vector<int>>& grid, int startX, int startY, int goalX, int goalY) {
