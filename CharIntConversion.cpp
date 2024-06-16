@@ -4,8 +4,6 @@
 using namespace std;
 
 int main() 
-
-
 {
     stringstream string; 
     string << "5"; 
