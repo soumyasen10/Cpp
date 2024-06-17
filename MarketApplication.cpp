@@ -10,7 +10,6 @@ public:
     virtual void update(float price) = 0;
 };
 
-// Subject interface
 class Subject {
 public:
     virtual ~Subject() = default;
