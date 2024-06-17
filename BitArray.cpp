@@ -17,7 +17,8 @@ class BitArray
         {
             bitValues =  new Bit* [BIT_ARRAY_LENGTH];
         }
-  
+
+
         Bit *getBit(int value,int position)
         {
             Bit *singleBit = new Bit;
