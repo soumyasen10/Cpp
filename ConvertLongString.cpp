@@ -12,6 +12,7 @@ string LongToString(long long_num)
     }
  
 
+ 
     while (long_num > 0) {
         char convertedDigit = long_num % 10 + '0';
         stringStack.push(convertedDigit);
