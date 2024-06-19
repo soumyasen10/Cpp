@@ -6,6 +6,7 @@ int fib(int n)
     int first = 0, second = 1, ans; 
     if (n == 0) 
         return first; 
+
   
     for (int i = 2; i <= n; i++) { 
         ans = first + second; 
