@@ -8,10 +8,9 @@ private:
     int age;
 
 public:
-    // Default constructor
     Person() : name(""), age(0) {}
 
-    // Parameterized constructor
+   
     Person(const std::string& name, int age) : name(name), age(age) {}
 
     // Function to set the details of the person
