@@ -8,6 +8,7 @@ int fib(int n)
         return first; 
 
   
+  
     for (int i = 2; i <= n; i++) { 
         ans = first + second; 
         first = second; 
