@@ -13,7 +13,7 @@ public:
    
     Person(const std::string& name, int age) : name(name), age(age) {}
 
-    // Function to set the details of the person
+   
     void setDetails(const std::string& name, int age) {
         this->name = name;
         this->age = age;
