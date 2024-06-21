@@ -13,7 +13,7 @@ void handle_client(int client_socket) {
     char buffer[BUFFER_SIZE];
     read(client_socket, buffer, BUFFER_SIZE);
 
-    // Simple HTTP response
+
     std::string response = "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\n\r\nHello, World!";
     write(client_socket, response.c_str(), response.size());
 
