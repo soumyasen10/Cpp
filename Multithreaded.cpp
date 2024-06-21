@@ -32,7 +32,7 @@ int main() {
         exit(EXIT_FAILURE);
     }
 
-    // Forcefully attaching socket to the port 8080
+ 
     if (setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT, &opt, sizeof(opt))) {
         perror("setsockopt failed");
         exit(EXIT_FAILURE);
