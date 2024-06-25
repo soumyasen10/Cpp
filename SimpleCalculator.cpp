@@ -39,7 +39,6 @@ int main() {
     std::cout << "Enter second number: ";
     std::cin >> num2;
 
-    // Perform the calculation based on the operator
     double result;
     switch (operation) {
         case '+':
