@@ -29,7 +29,7 @@ int main() {
     double num1, num2;
     char operation;
 
-    // Prompt user for input
+ 
     std::cout << "Enter first number: ";
     std::cin >> num1;
 
