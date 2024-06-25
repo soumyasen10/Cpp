@@ -57,8 +57,6 @@ int main() {
             std::cerr << "Error: Invalid operator!" << std::endl;
             return 1;
     }
-
-    // Display the result
     std::cout << "Result: " << result << std::endl;
 
     return 0;
