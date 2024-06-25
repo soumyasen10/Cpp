@@ -6,8 +6,6 @@ public:
     double add(double a, double b) {
         return a + b;
     }
-
-    // Function to subtract two numbers
     double subtract(double a, double b) {
         return a - b;
     }
