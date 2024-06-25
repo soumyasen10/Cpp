@@ -10,7 +10,6 @@ public:
         return a - b;
     }
 
-    // Function to multiply two numbers
     double multiply(double a, double b) {
         return a * b;
     }
