@@ -20,6 +20,7 @@ int main()
             std::cout << "asin(val) = " << std::setprecision(3)
                       << asin(value) << std::endl;
             break;
+     
         case 2:
             std::cout << "Enter a value ";
             std::cin  >> value;
