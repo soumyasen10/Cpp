@@ -8,7 +8,6 @@ int main()
     int gdriver = DETECT, gmode, errorcode;
 
     initgraph(&gdriver, &gmode, "C:\\TC\\BGI");
- 
 
     errorcode = graphresult();
     if (errorcode == grOk)
