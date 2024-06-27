@@ -11,8 +11,6 @@ int main()
  
 
     errorcode = graphresult();
- 
-
     if (errorcode == grOk)
 
         cout << "Graphics enabled: \n"
