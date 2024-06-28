@@ -6,6 +6,5 @@ int main()
     ch = 'A';
     cout << "The ASCII value of " << ch << " is " << int(ch) 
          << endl; 
-  
     return 0; 
 }
