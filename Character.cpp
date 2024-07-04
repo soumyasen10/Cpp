@@ -14,7 +14,6 @@ int main()
         else { 
             cout << ch << " is a consonant." << endl; 
         }
-      
     } 
     else { 
         cout << ch << " is not an alphabet." << endl; 
